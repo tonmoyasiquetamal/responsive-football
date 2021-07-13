@@ -32,6 +32,8 @@ html {
     font-size: 5.8rem;
     font-weight: 700;
     line-height: 8rem;
+    transition: 1.5s ease-out;
+    transform:translateY(0em);
   }
   
   .btn {
