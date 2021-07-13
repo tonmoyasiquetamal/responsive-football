@@ -1,6 +1,144 @@
 /* <!-- google fonts are here */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* random style  */
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     background-color: #F3F1FF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+/* top player style  */
+html {
+    font-size: 60%;
+  }
+  /* header----player----container */
+  .container {
+    max-width: 1142px;
+    margin: 0px auto;
+  }
+  .header-image img{
+    width: 100%;
+    transition: 1.5s ease-in-out;
+}
+
+  h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 8rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2.4rem;
+    margin-top: 2.7rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .btn-primary {
+    background-color: #e02c6d;
+  }
+  
+  /*  Header Section */
+  #header {
+    background-color: #24279c;
+    color: #fff;
+    padding: 8.6rem 0;
+  }
+  
+  .header-info {
+    display: flex;
+  }
+  .header-text {
+    width: 485px;
+    margin-top: 5.5rem;
+    padding-left: 1rem;
+  }
+  
+  .fa-arrow-right {
+    margin-left: 0.8rem;
+  }
+  
+  .header-image {
+    width: 556px;
+    padding-left: 11rem;
+    margin-left: 2rem;
+  }
+  .header-image img {
+    width: 100%;
+  }
+  
+  /* Players Info Section */
+  
+  #main {
+    margin: 7rem 0;
+  }
+  
+  .players-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 2.7rem;
+    grid-column-gap: 3rem;
+  }
+  .player-single {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+  }
+  .player-single img {
+    width: 100%;
+  }
+  .player-single h2 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 4rem;
+    color: #18191f;
+    margin-top: 1.6rem;
+  }
+  .player-single p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #6c6c6c;
+    margin-top: 1rem;
+  }
+  
+  /* Footer  */
+  footer {
+    padding: 6rem 0;
+  }
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-info img {
+    width: 480px;
+  }
+  
+  .social-icon i {
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+  }
+  /* icons color  */
+  .fa-facebook{
+      color:dodgerblue;
+  }
+  .fa-instagram{
+      color:crimson ;
+  }
+  .fa-twitter-square{
+      color:deepskyblue;
+  }
+  .fa-youtube{
+      color: red;
+  }
+  .copy {
+    font-size: 1.8rem;
+  }
