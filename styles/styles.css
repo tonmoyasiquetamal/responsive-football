@@ -14,12 +14,18 @@ html {
   }
   /* header----player----container */
   .container {
-    max-width: 1142px;
+    max-width: 1080px;
     margin: 0px auto;
+    display: flex;
+    
   }
-  .header-image img{
+  .header-image {
     width: 100%;
-    transition: 1.5s ease-in-out;
+    transition: 1.5s ease-in;
+}
+.header-image:hover {
+  transform: rotate(360deg) scale(.70);
+  position: relative;
 }
 
   h1 {
