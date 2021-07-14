@@ -9,8 +9,11 @@ body{
     box-sizing: border-box;
 }
 /* top player style  */
-html {
+html, body {
     font-size: 60%;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
   }
   /* header----player----container */
   .container {
