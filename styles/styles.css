@@ -199,7 +199,6 @@ html, body {
 	  .players-info {
 	    display: grid;
 	    grid-template-columns: repeat(1, 1fr);
-	    grid-template-rows: repeat(12, 1fr);
 	    grid-row-gap: 2.7rem;
 	    grid-column-gap: 3rem;
     }
@@ -210,6 +209,6 @@ html, body {
       align-items: center;
     }
     .footer-info img {
-      width: 240px;
+      width: 100%;
     }
   }
