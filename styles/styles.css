@@ -49,19 +49,20 @@ html, body {
     font-size: 16px;
     line-height: 24px;
   }
-  
+  .btn:hover{
+    opacity: 2;
+    opacity: 0.5;
+    transition:inherit ;
+  }
   .btn-primary {
     background-color: #e02c6d;
   }
-  
-  /*  Header Section */
-  
+  /*  Header Section */  
   #header {
     background-color: #24279c;
     color: #fff;
     padding: 6rem 0;
   }
-  
   .header-info {
     display: flex;
   }
@@ -69,12 +70,10 @@ html, body {
     width: 485px;
     margin-top: 5.5rem;
     padding-left: 1rem;
-  }
-  
+  } 
   .fa-arrow-right {
     margin-left: 0.8rem;
-  }
-  
+  }  
   .header-image {
     width: 556px;
     padding-left: 11rem;
@@ -83,13 +82,10 @@ html, body {
   .header-image img {
     width: 100%;
   }
-  
-  /* Players Info Section */
-  
+  /* Players Info Section */  
   #main {
     margin: 7rem 0;
-  }
-  
+  }  
   .players-info {
     display: grid;
     padding: 15px;
@@ -155,12 +151,10 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  
+  } 
   .footer-info img {
     width: 30%;
-  }
-  
+  }  
   .social-icon i {
     padding: 1rem 1.5rem;
     font-size: 2rem;
