@@ -119,13 +119,27 @@ html {
   }
   .title{
     text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
 }
+/* Robarto Carlos Free-Kick Added */
+.video{
+  display: flex;
+  justify-content: center;
+}
+.video-text{
+  text-align: center;
+  font-size:1.4rem;
+}
+/* Fifa-Sponsors */
 .sponsor{
-   display: flex;
-   justify-content: center;
+   display: inline;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding:  66px;
 }
 .our-sponsors img{
-    width: 80px;
+    width: 90px;
     height: 50px;
 }
   /* Footer  */
