@@ -117,7 +117,17 @@ html {
     color: #6c6c6c;
     margin-top: 1rem;
   }
-  
+  .title{
+    text-align: center;
+}
+.sponsor{
+   display: flex;
+   justify-content: center;
+}
+.our-sponsors img{
+    width: 80px;
+    height: 50px;
+}
   /* Footer  */
   footer {
     padding: 6rem 0;
