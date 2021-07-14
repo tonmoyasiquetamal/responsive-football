@@ -55,10 +55,11 @@ html, body {
   }
   
   /*  Header Section */
+  
   #header {
     background-color: #24279c;
     color: #fff;
-    padding: 8.6rem 0;
+    padding: 6rem 0;
   }
   
   .header-info {
@@ -207,5 +208,8 @@ html, body {
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
+    }
+    .footer-info img {
+      width: 240px;
     }
   }
